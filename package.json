@@ -19,7 +19,7 @@
           "releaseRules": [
             {
               "type": "hf",
-              "release": "minor"
+              "release": "patch"
             }
           ]
         }
