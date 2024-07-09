@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Diwoka/semantic/compare/v1.1.0...v1.1.1) (2024-07-09)
+
+
+### Bug Fixes
+
+* **semantic:** fix controller issue ([3679409](https://github.com/Diwoka/semantic/commit/3679409feb87464b707dc08840bd0e9206ebe156))
+
 # [1.1.0](https://github.com/Diwoka/semantic/compare/v1.0.0...v1.1.0) (2024-07-09)
 
 
