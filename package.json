@@ -12,6 +12,18 @@
     ],
     "tagsFormat": "v${version}",
     "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules": [
+            {
+              "type": "hf",
+              "release": "minor"
+            }
+          ]
+        }
+      ],
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       [
