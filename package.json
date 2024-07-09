@@ -15,14 +15,36 @@
       [
         "@semantic-release/commit-analyzer",
         {
-          "preset": "angular",
-          "releaseRules": [
-            {
-              "type": "hf",
-              "scope": "fix",
-              "release": "patch"
-            }
-          ]
+          "preset": "conventionalcommits",
+          "presetConfig": {
+            "types": [
+              {
+                "type": "feat",
+                "section": "Features"
+              },
+              {
+                "type": "fix",
+                "section": "Bug Fixes"
+              },
+              {
+                "type": "hf",
+                "section": "Bug Fixes"
+              },
+              {
+                "type": "chore",
+               "section": "Chore"
+              }]
+            },
+            "releaseRules": [
+              {
+                "type": "hf",
+                "release": "patch"
+              },
+              {
+                "type": "chore",
+                "release": "patch"
+              }
+            ]
         }
       ],
       "@semantic-release/commit-analyzer",
