@@ -18,6 +18,7 @@
           "preset": "angular",
           "releaseRules": [
             {
+              "tag": "Fix",
               "type": "hf",
               "release": "patch"
             }
