@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Diwoka/semantic/compare/v1.2.1...v1.3.0) (2024-07-09)
+
+
+### Features
+
+* **controller:** add new create controller ([294b020](https://github.com/Diwoka/semantic/commit/294b02041dda54934f248960c8cc2f1d8a8ad13b))
+
 ## [1.2.1](https://github.com/Diwoka/semantic/compare/v1.2.0...v1.2.1) (2024-07-09)
 
 # [1.2.0](https://github.com/Diwoka/semantic/compare/v1.1.1...v1.2.0) (2024-07-09)
