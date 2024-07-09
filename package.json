@@ -18,8 +18,8 @@
           "preset": "angular",
           "releaseRules": [
             {
-              "type": "fix",
-              "scope": "hf",
+              "type": "hf",
+              "scope": "fix",
               "release": "patch"
             }
           ]
