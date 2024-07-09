@@ -1,4 +1,6 @@
 {
+  "name": "react-landing-billing",
+  "private": true,
   "devDependencies": {
     "@semantic-release/npm": "^12.0.1"
   }
