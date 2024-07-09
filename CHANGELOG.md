@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/Diwoka/semantic/compare/v1.3.1...v1.3.2) (2024-07-09)
+
+### Bug Fixes
+
+* **semantic:** try new behaviour ([0bbc585](https://github.com/Diwoka/semantic/commit/0bbc585310ced0aaf185f7cae6caafe8ec299554))
+
 ## [1.3.1](https://github.com/Diwoka/semantic/compare/v1.3.0...v1.3.1) (2024-07-09)
 
 # [1.3.0](https://github.com/Diwoka/semantic/compare/v1.2.1...v1.3.0) (2024-07-09)
