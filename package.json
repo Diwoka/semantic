@@ -4,7 +4,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^12.0.1"
+    "@semantic-release/npm": "^12.0.1",
+    "conventional-changelog-conventionalcommits": "^8.0.0"
   },
   "release": {
     "branches": [
@@ -32,19 +33,20 @@
               },
               {
                 "type": "chore",
-               "section": "Chore"
-              }]
-            },
-            "releaseRules": [
-              {
-                "type": "hf",
-                "release": "patch"
-              },
-              {
-                "type": "chore",
-                "release": "patch"
+                "section": "Chore"
               }
             ]
+          },
+          "releaseRules": [
+            {
+              "type": "hf",
+              "release": "patch"
+            },
+            {
+              "type": "chore",
+              "release": "patch"
+            }
+          ]
         }
       ],
       "@semantic-release/commit-analyzer",
